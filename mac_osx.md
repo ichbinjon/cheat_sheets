@@ -1,6 +1,6 @@
 ## Show hidden files and folders in Finder
 
-'''bash
+```bash
 defaults write com.apple.Finder AppleShowAllFiles true
 killall Finder
-'''
+```
