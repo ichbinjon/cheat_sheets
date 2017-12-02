@@ -8,7 +8,7 @@ killall Finder
 ## Making soft links to binary file where $PATH looks for them
 
 ```bash
-ln -s /path/to/binary /usr/local/bin/subl
+ln -s /path/to/binary /usr/local/bin/binary
 ```
 
 Example: Making subl open Sublime Text
