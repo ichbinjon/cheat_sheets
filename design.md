@@ -1,5 +1,5 @@
 # Design Cheat Sheet
-## Cause I need to learn design now
+Cause I need to learn design now
 
 ## Inspiration
 [mrcthms](http://mrcthms.com/)
