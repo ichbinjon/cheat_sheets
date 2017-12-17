@@ -1,3 +1,4 @@
+# Mac OSX Cheat Sheet
 ## Show hidden files and folders in Finder
 
 ```bash
@@ -19,6 +20,7 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 ---
 ## Dev Tools
 [Sublime Text 3](https://www.sublimetext.com/3)
+[Sequel Pro 1.1.2](https://sequelpro.com)
 
 ### Laravel
 
