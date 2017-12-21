@@ -20,6 +20,10 @@ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local
 ---
 ## Dev Tools
 [Sublime Text 3](https://www.sublimetext.com/3)
+
+Plugins:
+- SublimeLinter + flake8
+
 [Sequel Pro 1.1.2](https://sequelpro.com)
 
 ### Laravel
@@ -31,3 +35,15 @@ Using a Homestead VM for Laravel. Todo: learn to dockerize
 [VirtualBox 5.2.2](https://www.virtualbox.org/wiki/Downloads)
 
 [Vagrant 2.0.1](https://www.vagrantup.com/downloads.html)
+
+### Python
+
+Python 3.6.4
+
+`brew install python3`
+
+virtualenv + virtualenv wrapper
+
+`pip3 install virtualenv`
+
+`pip3 install virtualenvwrapper`
