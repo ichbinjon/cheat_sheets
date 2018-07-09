@@ -23,9 +23,22 @@ Then add devstart to package.json
 ```
 
 Run server with `DEBUG=express-locallibrary-tutorial:* npm run devstart`
+`DEBUG=pb-backend:* npm run devstart`
+
 
 ## Mongoose
 - run `mongod` on local machine at start of dev!
+- Mongoose docs Promises docs lied
+```javascript
+// Mongoose docs lied here and cost me a good hour.
+// it's just Model.remove() not model.remove().exec()
+lobby.remove().then( () => {
+  res.json({message: 'Success! Lobby left and deleted'});
+  })
+  .catch((err) => {
+    // do error handling here
+    })
+```
 
 Object IDs are created automatically and not included in the schema. `_id` field
 
@@ -43,3 +56,6 @@ sending JSON to POST
             "5a5a1a7cbddf503edebc857b"
     }
 ```
+
+## Keeping my box updated
+`sudo ntpdate -s ntp.ubuntu.com`

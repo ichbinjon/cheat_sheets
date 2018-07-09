@@ -10,6 +10,10 @@
 - Migration: create_tasks_table
 - Controller: TaskController
 
+## SSHing into vagrant
+Host: 192.168.10.10
+Mysql
+
 ## Conventions
 
 GET /posts - display all posts
