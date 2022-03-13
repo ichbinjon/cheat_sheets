@@ -1,24 +1,15 @@
-# iOS Swift learning
+# Swift Dev Cheat Sheet
 
-## Swift classes vs structs
+## User Defaults
 
-A swift `class` is passed by reference. A `struct` is passed by value.
+### Remove all information
 
-```swift
-// Assuming Dog is a predefined struct
+`defaults delete your.app.bundle.id`
 
-let dog = Dog()
-let newdog = dog
+### Remove a specific key
 
-// dog and newdog are different instances of Dog!
-```
+`defaults delete your.app.bundle.id key`
 
-```swift
-// Assuming Dog is a predefined struct
-let dog = Dog()
-let dogs = [Dog]
-dogs.append(dog)
-dogs.append(dog)
+## Cleaning DerivedData for weird build errors
 
-// two different instaces of Dog is inside dogs! Appending / assigning is by value on structs.
-```
+`rm -rf /Users/ichbinjon/Library/Developer/Xcode/DerivedData/*`
